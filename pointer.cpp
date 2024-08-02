@@ -6,6 +6,18 @@ int main(){
 
     int* ptr=&x;
     float *ptrf =&y;
-    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
+
+    x=23;
+    cout<<"Updatedvalue "<<*ptr<<endl;
+    *ptr=69;
+    cout<<*ptr<<endl;
+    cout<<x<<endl;
+    cout<<&ptr<<endl;
+
+
+
+
+
     cout<<ptrf<<endl;
 }
